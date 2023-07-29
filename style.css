@@ -419,6 +419,7 @@ iframe{
   .faq ul li{
     font-size: 1rem;
     margin: 2.5rem 0 2.5rem 0;
+    text-decoration-color: white;
   }
 
   .faq ul p{
