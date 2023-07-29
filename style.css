@@ -182,6 +182,7 @@ iframe{
   margin: 2.5rem 0 2.5rem 0;
   text-decoration: underline;
   text-underline-offset: 8px;
+  text-decoration-color: white;
   color: #f97316;
 }
 
@@ -419,7 +420,6 @@ iframe{
   .faq ul li{
     font-size: 1rem;
     margin: 2.5rem 0 2.5rem 0;
-    text-decoration-color: white;
   }
 
   .faq ul p{
