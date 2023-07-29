@@ -1,0 +1,488 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=Poppins:wght@200;400;600;700;900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  background-color: #1e293b;
+}
+
+nav{
+  display: flex;
+  background-color: #020617;
+  justify-content: space-between;
+  width: 100%;
+  position: fixed;
+}
+
+nav img{
+  width: auto;
+  height: auto;
+  max-width: 24rem;
+  max-height: 5rem;
+  margin-left: 0.5rem;
+}
+
+.links{
+  display: flex;
+  color: white;
+  margin: 0 0.5rem 0 0.5rem;
+}
+
+.links a{
+  line-height: 1;
+  margin: auto 0.5rem auto 0.5rem;
+  padding: 0.5rem;
+  font-size: 2.25rem;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.2s;
+  color: white;
+}
+
+.links a:hover{
+  color: #f97316;
+  border-radius: 0.5rem;
+}
+
+.nav-fill{
+  height: auto;
+  max-height: 5rem;
+}
+
+main{
+  padding-top: 10rem;
+  min-height: 30rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 7rem;
+  color: white;
+}
+
+main h1{
+  text-align: center;
+  margin: auto;
+  font-size: 3.75rem;
+  font-weight: 500;
+  font-family: IBM Plex Mono, monospace;
+}
+
+main h1 span{
+  color: #f97316;
+  font-family: IBM Plex Mono, monospace;
+}
+
+main a{
+  line-height: unset;
+  margin: auto;
+  margin-top: 1rem;
+  background-color: #f97316;
+  width: 10rem;
+  height: 2rem;
+  padding: 2rem;
+  color: white;
+  font-weight: 900;
+  font-size: 1.25rem;
+  border-radius: 9999px;
+  text-align: center;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.2s;
+  text-decoration: none;
+}
+
+main a:hover{
+  box-shadow: 0 20px 25px -5px #475569;
+  background-color: #c2410c;
+}
+
+.info{
+  display: flex;
+  height: auto;
+  width: 100%;
+  margin: auto;
+  padding: 5rem 0 5rem 0;
+  background-color: #020617;
+}
+
+iframe{
+  width: 720px;
+  height: 405px;
+  margin: auto;
+}
+
+.right{
+  font-size: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1.5rem auto 1.5rem auto;
+  color: white;
+  width: 45%;
+}
+
+.right h2{
+  text-align: center;
+  font-size: 2.25rem;
+  font-weight: 700;
+}
+
+.right h3 span{
+  margin: 0 1rem 0 1rem;
+}
+
+.right h3{
+  text-align: center;
+  margin: 2rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+  text-decoration: underline;
+  text-decoration-color: white;
+  text-underline-offset: 8px;
+  color: #f97316
+}
+
+.right ul{
+  list-style-type: disc;
+  margin: 1.5rem;
+  font-size: 1.25rem;
+}
+
+.right ul li{
+  margin: 0.5rem;
+}
+
+.faq{
+  color: white;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem 0 2rem 0;
+}
+
+.faq h1{
+  text-align: center;
+  font-size: 3.75rem;
+  font-weight: 700;
+}
+
+.faq ul{
+  list-style-type: none;
+  margin: auto;
+}
+
+.faq ul li{
+  font-size: 1.25rem;
+  margin: 2.5rem 0 2.5rem 0;
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  color: #f97316;
+}
+
+.faq p a{
+  color: white;
+  text-underline-offset: 4px;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.2s;
+}
+
+.faq p a:hover{
+  color: #f97316;
+}
+
+.team{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: #020617;
+}
+
+.team h1{
+  text-align: center;
+  font-size: 3.75rem;
+  font-weight: 700;
+  margin: 2.5rem;
+}
+
+.team img{
+  width: 90%;
+  margin: auto;
+}
+
+.team-info{
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.team-info-item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0.2rem 1rem 0.2rem;
+}
+
+.team-info-name{
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.team-info-role{
+  font-size: 1rem;
+  font-weight: 600;
+  margin: auto;
+  color: #f97316;
+}
+
+.team-links{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin: 0.5rem 0 0.5rem 0;
+}
+
+.team-links a{
+  line-height: 1;
+  margin: auto 0.2rem auto 0.2rem;
+  padding: 0.2rem;
+  font-size: 1.5rem;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.2s;
+  color: white;
+}
+
+.team-links a:hover{
+  color: #f97316;
+}
+
+.contact{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  padding: 5rem 0 5rem 0;
+}
+
+.contact h2 a{
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.2s;
+  color: white;
+}
+
+.contact h2 a:hover{
+  color:#f97316;
+}
+
+.cursor {
+  display: inline-block;
+  background-color: #ccc;
+  margin-left: 0.1rem;
+  width: 3px;
+  animation: blink 1s infinite;
+}
+
+.cursor.typing {
+  animation: none;
+}
+
+.nav-mobile{
+  display: none;
+}
+
+.nav-btn{
+  color: white;
+  background-color: #020617;
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 5px 8px 5px 8px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin-right: 30px;
+}
+
+.mobile-links a{
+  display: none;
+  line-height: 1;
+  padding: 0.5rem;
+  font-size: 2.25rem;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.2s;
+  color: white;
+}
+
+.active a{
+  display: block !important;
+}
+
+@keyframes blink {
+  0%  { background-color: #ccc; }
+  49% { background-color: #ccc; }
+  50% { background-color: transparent; }
+  99% { background-color: transparent; }
+  100%  { background-color: #ccc; }
+}
+
+@media screen and (max-width: 1450px) {
+  .right h3{
+    font-size: 1rem;
+  }
+  .right ul li{
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  main h1{
+    font-size: 2.5rem;
+  }
+  main a{
+  width: 8rem;
+  height: 1.5rem;
+  padding: 2rem;
+  font-size: 1rem;
+  }
+
+  .info{
+    flex-direction: column;
+  }
+
+  .right{
+    width: 80%;
+    margin-top: 4rem;
+  }
+
+  .team-info-item{
+    margin: 1rem 0.2rem 1rem 0.2rem;
+  }
+  
+  .team-info-name{
+    font-size: 0.8rem;
+  }
+  
+  .team-info-role{
+    font-size: 0.8rem;
+  }
+
+  .team-links a{
+    font-size: 1.25rem;
+  }
+
+  .contact{
+    font-size: 1rem;
+    padding: 2.5rem 0 2.5rem 0;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  main h1{
+    font-size: 2rem;
+  }
+
+  iframe{
+    width: 480px;
+    height: 270px;
+  }
+
+  .team-info{
+    flex-direction: column;
+  }
+
+  .faq{
+    width: 100%;
+    padding: 2rem 0 2rem 0;
+  }
+  
+  .faq h1{
+    font-size: 2.75rem;
+  }
+
+  .faq ul{
+    margin: auto;
+    width: 90%;
+  }
+  
+  .faq ul li{
+    font-size: 1rem;
+    margin: 2.5rem 0 2.5rem 0;
+  }
+
+  .faq ul p{
+    font-size: 1rem;
+  }
+
+  .team h1{
+    font-size: 2.75rem;
+    margin: 2.5rem;
+  }
+  .contact{
+    font-size: .8rem;
+    font-weight: 500;
+    padding: 2rem 0 2rem 0;
+  }
+
+  .links{
+    display: none;
+  }
+
+  nav img{
+    width: auto;
+    height: auto;
+    max-width: 18rem;
+    max-height: 3.5rem;
+  }
+
+  .nav-mobile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0.5rem 0 0.5rem 0;
+  }
+}
+
+@media screen and (max-width: 690px) {
+  main h1{
+    font-size: 1.5rem;
+  }
+  main a{
+    width: 6rem;
+    height: 1rem;
+    padding: 1rem;
+    font-size: 0.8rem;
+  }
+  iframe{
+    width: 360px;
+    height: 202.5px;
+  }
+  .right h2{
+    font-size: 1.5rem;
+  }
+  .right h3{
+    font-size: 0.8rem;
+  }
+  .right h3 span{
+    margin: 0 0.2rem 0 0.2rem;
+  }
+}
+
+@media screen and(max-width: 380px) {
+  iframe{
+    width: 240px;
+    height: 135px;
+  }
+}
